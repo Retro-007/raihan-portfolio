@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './App.tsx',
+    entry: './index.tsx',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
@@ -24,7 +24,9 @@ module.exports = {
         ],
     },
     devServer: {
-        contentBase: path.join(__dirname, 'dist'),
+        static: {
+            directory: path.join(__dirname, 'dist'),
+        },
         port: 3000,
     },
 };

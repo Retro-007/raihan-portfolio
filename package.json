@@ -4,8 +4,7 @@
   "description": "",
   "main": "App.tsx",
   "scripts": {
-    "start": "webpack serve --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --mode development"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +13,7 @@
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "babel-loader": "^9.1.2",
